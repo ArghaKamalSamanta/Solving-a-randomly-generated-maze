@@ -52,6 +52,7 @@ Finding a route between **start point**(126,19) and the **end point**(257,183) o
 9. Once a tree is generated to find a goal state, we need not generate another new tree from scratch if the goal state position is changed, given that obstacles are not changing their position.
 
 
+
 - Some snapshots:
 ![500](https://user-images.githubusercontent.com/97786651/209921161-c2db47db-5547-4d3a-bb33-ebe73147b229.png)
 ![1k](https://user-images.githubusercontent.com/97786651/209921212-e0d8a65e-e5fe-4748-93ac-a9cddef6797a.png)
