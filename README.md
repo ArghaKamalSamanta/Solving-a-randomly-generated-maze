@@ -30,12 +30,14 @@ Finding a route between **start point**(126,19) and the **end point**(257,183) o
 [Link](https://docs.google.com/presentation/d/1E-vr3htqHtmaNFpuvqLZoRdWdHFZeTRu/edit#slide=id.p2) of the presentation of the project.
 
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 # Implementation of RRT in python
 
 ### What is RRT?
-  It is one of the various path planning algorithms. It’s a sampling-based algorithm that makes it very useful to plan high-dimensional robot paths.
-  It starts with an empty tree. Then it generates random nodes in each iteration. Once a node is generated, it searches for an existing node present in the tree, which would have the minimum distance from that newly generated node. If there are no obstacles between the two nodes, a new edge is created between these two nodes and added to the tree. That’s how the tree expands and eventually finds its goal. Once the goal is reached, the path is shown between the starting node and the goal.
+- It is one of the various path planning algorithms. It’s a sampling-based algorithm that makes it very useful to plan high-dimensional robot paths.
+- It starts with an empty tree. Then it generates random nodes in each iteration. Once a node is generated, it searches for an existing node present in the tree, which would have the minimum distance from that newly generated node. If there are no obstacles between the two nodes, a new edge is created between these two nodes and added to the tree. That’s how the tree expands and eventually finds its goal. Once the goal is reached, the path is shown between the starting node and the goal.
 
 
 ### Features of RRT
